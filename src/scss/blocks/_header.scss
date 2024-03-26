@@ -1,0 +1,14 @@
+.header {
+    background-color: $bg-header;
+    color: $text-color;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
